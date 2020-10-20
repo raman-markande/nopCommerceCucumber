@@ -1,0 +1,342 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-20T17:11:34.059Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6827083700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CampaignStepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Add New Campaign",
+        "description": "",
+        "id": "campaign;add-new-campaign",
+        "after": [
+          {
+            "result": {
+              "duration": 663968300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CampaignStepDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8498943800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Campaign page",
+            "match": {
+              "location": "stepDefinitions.CampaignStepDefinitions.user_is_on_campaign_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20865559500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on Add button and enters below list of campaigns details",
+            "match": {
+              "location": "stepDefinitions.CampaignStepDefinitions.user_clicks_on_add_button_and_enters_below_list_of_campaigns_details(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Name",
+                  "Subject",
+                  "Body"
+                ]
+              },
+              {
+                "cells": [
+                  "Camp1",
+                  "Election",
+                  "Election body"
+                ]
+              },
+              {
+                "cells": [
+                  "Camp2",
+                  "Blood Donation",
+                  "Blood Donation body"
+                ]
+              },
+              {
+                "cells": [
+                  "Camp3",
+                  "Collage",
+                  "Collage body"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1973500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Above Campaigns should be created successfully",
+            "match": {
+              "location": "stepDefinitions.CampaignStepDefinitions.above_campaigns_should_be_created_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Campaign"
+          }
+        ]
+      }
+    ],
+    "name": "Campaign",
+    "description": "",
+    "id": "campaign",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/Campaign.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Common steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7468276100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Giftcard page",
+            "match": {
+              "location": "stepDefinitions.GiftcardStepDefinition.user_is_on_giftcard_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-20T17:12:10.964Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6960490600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.GiftcardStepDefinition.setup()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Add New Giftcard",
+        "description": "",
+        "id": "giftcard;add-new-giftcard",
+        "after": [
+          {
+            "result": {
+              "duration": 673053500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.GiftcardStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3577235100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on Add button and enters below giftcard details",
+            "match": {
+              "location": "stepDefinitions.GiftcardStepDefinition.user_clicks_on_add_button_and_enters_below_giftcard_details(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "OrderType",
+                  "RecipientName",
+                  "SenderName"
+                ]
+              },
+              {
+                "cells": [
+                  "Physical",
+                  "Virat",
+                  "Dhoni"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31024400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Above Giftcard should be created successfully",
+            "match": {
+              "location": "stepDefinitions.GiftcardStepDefinition.above_giftcard_should_be_created_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GiftCard"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Common steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7476705000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Giftcard page",
+            "match": {
+              "location": "stepDefinitions.GiftcardStepDefinition.user_is_on_giftcard_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-20T17:12:29.688Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6994900100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.GiftcardStepDefinition.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Edit Giftcard",
+        "description": "",
+        "id": "giftcard;edit-giftcard",
+        "after": [
+          {
+            "result": {
+              "duration": 656961500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.GiftcardStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13367463200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User selects existing Giftcard with Recipient Name as \"Brenda Lindgren\" to edit",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Brenda Lindgren\"",
+                  "offset": 54
+                }
+              ],
+              "location": "stepDefinitions.GiftcardStepDefinition.user_selects_existing_giftcard_with_recipient_name_as_to_edit(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2752722700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "updates Giftcard details as below",
+            "match": {
+              "location": "stepDefinitions.GiftcardStepDefinition.updates_giftcard_details_as_below(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "OrderType",
+                  "RecipientName"
+                ]
+              },
+              {
+                "cells": [
+                  "Virtual",
+                  "Gayle"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11871000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Giftcard should be updated successfully with new details",
+            "match": {
+              "location": "stepDefinitions.GiftcardStepDefinition.giftcard_should_be_updated_successfully_with_new_details()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GiftCard"
+          }
+        ]
+      }
+    ],
+    "name": "Giftcard",
+    "description": "",
+    "id": "giftcard",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/GiftCard.feature",
+    "tags": []
+  }
+]

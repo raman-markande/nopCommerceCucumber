@@ -1,0 +1,9 @@
+PageObjects\EditGiftCardPage.class
+PageObjects\AddCustomerPage.class
+TestRunner\TestRun.class
+PageObjects\LoginPage.class
+stepDefinitions\GiftcardStepDefinition.class
+stepDefinitions\CampaignStepDefinitions.class
+PageObjects\SearchCustomerPage.class
+PageObjects\AddCampaignsPage.class
+PageObjects\AddGiftCardPage.class
