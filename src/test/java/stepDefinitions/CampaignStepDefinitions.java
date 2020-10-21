@@ -1,5 +1,6 @@
 package stepDefinitions;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -9,11 +10,14 @@ import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter;
+
 import PageObjects.AddCampaignsPage;
 import PageObjects.LoginPage;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.*;
 
 public class CampaignStepDefinitions{
@@ -33,7 +37,13 @@ public class CampaignStepDefinitions{
 	}
 	
 	@After("@Campaign")
-	public void tearDown() {
+	public void tearDown(Scenario scenario) throws IOException {
+		if(scenario.isFailed()) {
+			scenario.attach("screenshot", "image/png", "./Screenshots/" + scenario.getName() + ".png");
+			ExtentCucumberAdapter.addTestStepScreenCaptureFromPath(FunctionLibrary.captureScreen(driver, scenario.getName()));
+			scenario.log("screenshot attached");		
+		}
+		
 		driver.quit();
 	}
 	
@@ -73,7 +83,6 @@ public class CampaignStepDefinitions{
 
 	@Then("Above Campaigns should be created successfully")
 	public void above_campaigns_should_be_created_successfully() {
-		System.out.println(statusFlag);
 		if(statusFlag.contains("fail")) {
 			System.out.println("All mentioned campaigns are not added successfully");
 			Assert.assertTrue(false);

@@ -50,13 +50,16 @@ WebDriver ldriver;
 	}
 	
 	
-	public void clickEdit(String recptName) throws InterruptedException {
+	public boolean clickEdit(String recptName) throws InterruptedException {
+		boolean flag=false;
 		for(int i=1;i<getRowNum(); i++) {			
 			String gridRecName= ldriver.findElement(By.xpath("//table[@id='giftcards-grid']//tr["+ i + "]/td[4]")).getText().trim();
 			if(gridRecName.equals(recptName)) {
 				ldriver.findElement(By.xpath("//table[@id='giftcards-grid']//tr["+ i + "]/td[7]/a")).click();
+				flag=true;
 			}
 		}
+		return flag;
 		
 	}
 	

@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 				 glue="stepDefinitions",
 				 monochrome=true,
 				 dryRun=false,
-				 plugin= {"json:target/cucumber.json"}
+				 plugin= {"json:target/cucumber.json", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 				)
 public class TestRun {
 

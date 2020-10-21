@@ -1,5 +1,6 @@
 package stepDefinitions;
 
+import java.io.IOException;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -7,12 +8,15 @@ import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter;
+
 import PageObjects.AddGiftCardPage;
 import PageObjects.EditGiftCardPage;
 import PageObjects.LoginPage;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.*;
 
 public class GiftcardStepDefinition{
@@ -20,9 +24,10 @@ public class GiftcardStepDefinition{
 	public LoginPage lp;
 	public AddGiftCardPage agcp;
 	public EditGiftCardPage egcp;
+	
 
 	@Before("@GiftCard")
-	public void setup() {
+	public void setup(Scenario scenario) {
 		System.setProperty("webdriver.chrome.driver", "./Drivers\\\\chromedriver.exe");
 		driver = new ChromeDriver();
 
@@ -32,7 +37,14 @@ public class GiftcardStepDefinition{
 	}
 
 	@After("@GiftCard")
-	public void tearDown() {
+	public void tearDown(Scenario scenario) throws IOException {
+		
+		if(scenario.isFailed()) {
+			scenario.attach("screenshot", "image/png", "./Screenshots/" + scenario.getName() + ".png");
+			ExtentCucumberAdapter.addTestStepScreenCaptureFromPath(FunctionLibrary.captureScreen(driver, scenario.getName()));
+			scenario.log("screenshot attached");		
+		}
+		
 		driver.quit();
 	}
 	
@@ -75,10 +87,14 @@ public class GiftcardStepDefinition{
 	//Edit Giftcard Step Definition
 	
 	@When("User selects existing Giftcard with Recipient Name as {string} to edit")
-	public void user_selects_existing_giftcard_with_recipient_name_as_to_edit(String recName) throws InterruptedException {
+	public void user_selects_existing_giftcard_with_recipient_name_as_to_edit(String recName) throws InterruptedException, IOException {
 		egcp=new EditGiftCardPage(driver);
 		Thread.sleep(2000);
-		egcp.clickEdit(recName);
+		boolean recNamePresence= egcp.clickEdit(recName);		
+		if(!recNamePresence) {
+			//String base64AScreenshot=captureScreen(driver, scenarioName);
+			Assert.assertTrue("Recipient Name: " + recName +" is not present in data grid", false);
+		}
 	}
 
 	@When("updates Giftcard details as below")
