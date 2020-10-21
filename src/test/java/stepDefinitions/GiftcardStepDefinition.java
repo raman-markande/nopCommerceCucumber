@@ -40,9 +40,11 @@ public class GiftcardStepDefinition{
 	public void tearDown(Scenario scenario) throws IOException {
 		
 		if(scenario.isFailed()) {
-			scenario.attach("screenshot", "image/png", "./Screenshots/" + scenario.getName() + ".png");
-			ExtentCucumberAdapter.addTestStepScreenCaptureFromPath(FunctionLibrary.captureScreen(driver, scenario.getName()));
-			scenario.log("screenshot attached");		
+			scenario.attach(FunctionLibrary.captureScreenForMvnCucumberReporting(driver, scenario.getName()), "image/png", "./Screenshots/" + scenario.getName() + ".png");
+			ExtentCucumberAdapter.addTestStepScreenCaptureFromPath(FunctionLibrary.captureScreenForExtentReporting(driver, scenario.getName()));
+			scenario.log("screenshot attached");
+			driver.quit();
+			Assert.assertTrue(false);
 		}
 		
 		driver.quit();

@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-10-21T13:42:34.279Z",
+        "start_timestamp": "2020-10-21T17:46:25.676Z",
         "before": [
           {
             "result": {
-              "duration": 7377958500,
+              "duration": 8761731800,
               "status": "passed"
             },
             "match": {
@@ -22,11 +22,11 @@
         "after": [
           {
             "result": {
-              "duration": 688280900,
+              "duration": 839295300,
               "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.CampaignStepDefinitions.tearDown()"
+              "location": "stepDefinitions.CampaignStepDefinitions.tearDown(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11359708100,
+              "duration": 12670706700,
               "status": "passed"
             },
             "line": 5,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 20805609600,
+              "duration": 37429458300,
               "status": "passed"
             },
             "line": 6,
@@ -89,7 +89,7 @@
           },
           {
             "result": {
-              "duration": 2998500,
+              "duration": 6952100,
               "status": "passed"
             },
             "line": 11,
@@ -118,6 +118,353 @@
     "line": 1,
     "elements": [
       {
+        "start_timestamp": "2020-10-21T17:47:25.547Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7480385700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CategoryStepDefinition.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Add New Category",
+        "description": "",
+        "id": "category;add-new-category;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 769775200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CategoryStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10256636200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Category page",
+            "match": {
+              "location": "stepDefinitions.CategoryStepDefinition.user_is_on_category_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6107040900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User provide below list of \"RealMe Mobile\" , \"Electronics\" as input data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"RealMe Mobile\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"Electronics\"",
+                  "offset": 45
+                }
+              ],
+              "location": "stepDefinitions.CategoryStepDefinition.user_provide_below_list_of_and_as_input_data(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38001000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "below list of Categories should be created",
+            "match": {
+              "location": "stepDefinitions.CategoryStepDefinition.below_list_of_categories_should_be_created()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Category"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-21T17:47:50.236Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7782439000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CategoryStepDefinition.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Add New Category",
+        "description": "",
+        "id": "category;add-new-category;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 813888900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CategoryStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11384907500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Category page",
+            "match": {
+              "location": "stepDefinitions.CategoryStepDefinition.user_is_on_category_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5829674500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User provide below list of \"Cucumber BDD Framework\" , \"Books\" as input data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cucumber BDD Framework\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"Books\"",
+                  "offset": 54
+                }
+              ],
+              "location": "stepDefinitions.CategoryStepDefinition.user_provide_below_list_of_and_as_input_data(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49757600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "below list of Categories should be created",
+            "match": {
+              "location": "stepDefinitions.CategoryStepDefinition.below_list_of_categories_should_be_created()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Category"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-21T17:48:16.110Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7551189900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CategoryStepDefinition.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Add New Category",
+        "description": "",
+        "id": "category;add-new-category;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 756834700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CategoryStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9898151600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Category page",
+            "match": {
+              "location": "stepDefinitions.CategoryStepDefinition.user_is_on_category_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5773719900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User provide below list of \"Tanishq\" , \"Jewelry\" as input data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tanishq\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"Jewelry\"",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinitions.CategoryStepDefinition.user_provide_below_list_of_and_as_input_data(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 42987000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "below list of Categories should be created",
+            "match": {
+              "location": "stepDefinitions.CategoryStepDefinition.below_list_of_categories_should_be_created()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Category"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-21T17:48:40.145Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8092509200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CategoryStepDefinition.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Add New Category",
+        "description": "",
+        "id": "category;add-new-category;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 836813300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CategoryStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10564533600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Category page",
+            "match": {
+              "location": "stepDefinitions.CategoryStepDefinition.user_is_on_category_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6617295200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User provide below list of \"Call of Duty-Xbox One X\" , \"Digital downloads\" as input data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Call of Duty-Xbox One X\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"Digital downloads\"",
+                  "offset": 55
+                }
+              ],
+              "location": "stepDefinitions.CategoryStepDefinition.user_provide_below_list_of_and_as_input_data(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61917600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "below list of Categories should be created",
+            "match": {
+              "location": "stepDefinitions.CategoryStepDefinition.below_list_of_categories_should_be_created()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Category"
+          }
+        ]
+      }
+    ],
+    "name": "Category",
+    "description": "",
+    "id": "category",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/Category.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
         "line": 3,
         "name": "Common steps",
         "description": "",
@@ -126,7 +473,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7833600100,
+              "duration": 11852640800,
               "status": "passed"
             },
             "line": 4,
@@ -139,11 +486,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-10-21T13:43:14.584Z",
+        "start_timestamp": "2020-10-21T17:49:06.335Z",
         "before": [
           {
             "result": {
-              "duration": 6961734400,
+              "duration": 8153795800,
               "status": "passed"
             },
             "match": {
@@ -158,7 +505,7 @@
         "after": [
           {
             "result": {
-              "duration": 693210500,
+              "duration": 802407700,
               "status": "passed"
             },
             "match": {
@@ -171,7 +518,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2929989300,
+              "duration": 5225742200,
               "status": "passed"
             },
             "line": 9,
@@ -199,7 +546,7 @@
           },
           {
             "result": {
-              "duration": 16023900,
+              "duration": 49824200,
               "status": "passed"
             },
             "line": 12,
@@ -225,7 +572,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7377086100,
+              "duration": 9930635400,
               "status": "passed"
             },
             "line": 4,
@@ -238,11 +585,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-10-21T13:43:33.039Z",
+        "start_timestamp": "2020-10-21T17:49:32.455Z",
         "before": [
           {
             "result": {
-              "duration": 6936373100,
+              "duration": 8098298500,
               "status": "passed"
             },
             "match": {
@@ -256,18 +603,8 @@
         "id": "giftcard;edit-giftcard",
         "after": [
           {
-            "embeddings": [
-              {
-                "data": "c2NyZWVuc2hvdA\u003d\u003d",
-                "mime_type": "image/png",
-                "name": "./Screenshots/Edit Giftcard.png"
-              }
-            ],
-            "output": [
-              "screenshot attached"
-            ],
             "result": {
-              "duration": 1040064300,
+              "duration": 798093000,
               "status": "passed"
             },
             "match": {
@@ -280,9 +617,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "java.lang.AssertionError: Recipient Name: Brenda Lindgren is not present in data grid\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat stepDefinitions.GiftcardStepDefinition.user_selects_existing_giftcard_with_recipient_name_as_to_edit(GiftcardStepDefinition.java:101)\r\n\tat ✽.User selects existing Giftcard with Recipient Name as \"Brenda Lindgren\" to edit(file:///C:/Automation%20Projects/eclipse-workspace/nopCommerceCucumber/./src/test/java/Features/GiftCard.feature:17)\r\n",
-              "duration": 2293346000,
-              "status": "failed"
+              "duration": 14496949000,
+              "status": "passed"
             },
             "line": 17,
             "name": "User selects existing Giftcard with Recipient Name as \"Brenda Lindgren\" to edit",
@@ -299,8 +635,8 @@
           },
           {
             "result": {
-              "duration": 998700,
-              "status": "skipped"
+              "duration": 3666770600,
+              "status": "passed"
             },
             "line": 18,
             "name": "updates Giftcard details as below",
@@ -325,7 +661,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 53705300,
+              "status": "passed"
             },
             "line": 21,
             "name": "Giftcard should be updated successfully with new details",
@@ -353,10 +690,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-10-21T13:43:50.701Z",
+        "start_timestamp": "2020-10-21T17:50:09.512Z",
         "before": [
           {
             "result": {
+              "duration": 1001500,
               "status": "passed"
             },
             "match": {
@@ -373,6 +711,7 @@
         "steps": [
           {
             "result": {
+              "duration": 998600,
               "status": "passed"
             },
             "line": 5,

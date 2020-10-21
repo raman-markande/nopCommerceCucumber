@@ -12,7 +12,7 @@ import org.openqa.selenium.WebDriver;
 
 public class FunctionLibrary {
 	
-	public static String captureScreen(WebDriver driver, String sname) throws IOException {
+	public static String captureScreenForExtentReporting(WebDriver driver, String sname) throws IOException {
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
 		File target = new File(System.getProperty("user.dir") + "/Screenshots/" + sname + ".png");
@@ -23,6 +23,18 @@ public class FunctionLibrary {
 		
 		System.out.println("Screenshot taken");
 		return Base64StringofScreenshot;
+	}
+	
+	public static byte[] captureScreenForMvnCucumberReporting(WebDriver driver, String sname) throws IOException {
+		TakesScreenshot ts = (TakesScreenshot) driver;
+		File source = ts.getScreenshotAs(OutputType.FILE);
+		File target = new File(System.getProperty("user.dir") + "/Screenshots/" + sname + ".png");
+		FileUtils.copyFile(source, target);
+		
+		byte[] fileContent= FileUtils.readFileToByteArray(source);
+		
+		System.out.println("Screenshot taken");
+		return fileContent;
 	}
 	
 	public static String randomAlphabeticString(int c) {
