@@ -4,9 +4,12 @@ import java.io.IOException;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 
 import com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter;
 
@@ -19,7 +22,7 @@ import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import io.cucumber.java.en.*;
 
-public class GiftcardStepDefinition{
+public class GiftcardStepDefinition extends FunctionLibrary {
 	public WebDriver driver;	
 	public LoginPage lp;
 	public AddGiftCardPage agcp;
@@ -28,25 +31,38 @@ public class GiftcardStepDefinition{
 
 	@Before("@GiftCard")
 	public void setup(Scenario scenario) {
-		System.setProperty("webdriver.chrome.driver", "./Drivers\\\\chromedriver.exe");
-		driver = new ChromeDriver();
+		if(System.getProperty("browserName").equals("chrome")) {
+			System.setProperty("webdriver.chrome.driver", config.getChromePath());
+			driver = new ChromeDriver();
+		} else if (System.getProperty("browserName").equals("edge")) {
+			System.setProperty("webdriver.edge.driver", config.getEdgePath());
+			driver = new EdgeDriver();
+		} else
+		{
+			System.setProperty("webdriver.chrome.driver", config.getChromePath());
+			driver = new ChromeDriver();			
+		}
 
-		driver.get("https://admin-demo.nopcommerce.com/login");
+		driver.get(config.getbaseURL());
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-	}
+		
+		logger= Logger.getLogger(scenario.getName());
+		PropertyConfigurator.configure("Log4j.properties");
 
+	}
+	
 	@After("@GiftCard")
 	public void tearDown(Scenario scenario) throws IOException {
-		
-		if(scenario.isFailed()) {
-			scenario.attach(FunctionLibrary.captureScreenForMvnCucumberReporting(driver, scenario.getName()), "image/png", "./Screenshots/" + scenario.getName() + ".png");
+
+		if (scenario.isFailed()) {
+			scenario.attach(FunctionLibrary.captureScreenForMvnCucumberReporting(driver, scenario.getName()),"image/png", "./Screenshots/" + scenario.getName() + ".png");
 			ExtentCucumberAdapter.addTestStepScreenCaptureFromPath(FunctionLibrary.captureScreenForExtentReporting(driver, scenario.getName()));
 			scenario.log("screenshot attached");
 			driver.quit();
 			Assert.assertTrue(false);
 		}
-		
+
 		driver.quit();
 	}
 	
@@ -56,12 +72,14 @@ public class GiftcardStepDefinition{
 	public void user_is_on_giftcard_page() {
 		lp= new LoginPage(driver);
 		agcp = new AddGiftCardPage(driver);
-		lp.setUsername("admin@yourstore.com");
-		lp.setPassword("admin");
+		lp.setUsername(config.getUsername());
+		lp.setPassword(config.getPassword());
 		lp.clickLogin();
+		logger.info("User logged in");
 
 		agcp.clickSalesTab();
 		agcp.clickGiftcardSubTab();
+		logger.info("User is on Gift Card Page");
 
 	}
 
@@ -69,10 +87,13 @@ public class GiftcardStepDefinition{
 	public void user_clicks_on_add_button_and_enters_below_giftcard_details(DataTable dataTable) {
 		List<List<String>> data = dataTable.asLists();
 		agcp.clickAddNew();
+		logger.info("Add New button clicked");
 		agcp.selectOrdertype(data.get(1).get(0));
 		agcp.setRecipientName(data.get(1).get(1));
 		agcp.setSenderName(data.get(1).get(2));
+		logger.info("Gift Card details entered");
 		agcp.clickSave();
+		logger.info("Save button clicked");
 
 	}
 
@@ -80,8 +101,11 @@ public class GiftcardStepDefinition{
 	public void above_giftcard_should_be_created_successfully() {
 		if (driver.getPageSource().contains("The new gift card has been added successfully.")) {
 			Assert.assertTrue(true);
-		} else
+			logger.info("Passed: Gift card added successfully");
+		} else {
+			logger.info("Failed: Gift card not created");
 			Assert.assertTrue(false);
+		}
 
 	}
 	
@@ -95,16 +119,19 @@ public class GiftcardStepDefinition{
 		boolean recNamePresence= egcp.clickEdit(recName);		
 		if(!recNamePresence) {
 			//String base64AScreenshot=captureScreen(driver, scenarioName);
+			logger.info("Recipient Name: " + recName +" is not present in data grid");
 			Assert.assertTrue("Recipient Name: " + recName +" is not present in data grid", false);
 		}
 	}
 
 	@When("updates Giftcard details as below")
 	public void updates_giftcard_details_as_below(DataTable dataTable) throws InterruptedException {
-		List<List<String>> data = dataTable.asLists();		
+		List<List<String>> data = dataTable.asLists();	
 		egcp.selectOrdertype(data.get(1).get(0));
 		egcp.setRecipientName(data.get(1).get(1));
+		logger.info("Provided updated Giftcard details");
 		egcp.clickSave();
+		logger.info("Save button clicked");
 		Thread.sleep(1000);
 	}
 
@@ -113,7 +140,11 @@ public class GiftcardStepDefinition{
 		
 		if(driver.getPageSource().contains("The gift card has been updated successfully.")){
 			Assert.assertTrue(true);
-		}else Assert.assertTrue(false);
+			logger.info("Passed: Gift card updated successfully");
+		}else {
+			logger.info("Failed: Gift card not updated");
+			Assert.assertTrue(false);
+		}
 
 	}	
 

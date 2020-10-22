@@ -1,10 +1,11 @@
-PageObjects\AddCustomerPage.class
 TestRunner\TestRun.class
 PageObjects\SearchCustomerPage.class
 PageObjects\AddGiftCardPage.class
+utilities\ReadConfig.class
 PageObjects\EditGiftCardPage.class
 stepDefinitions\testOnly.class
 PageObjects\AddCategoryPage.class
+utilities\XLUtils.class
 PageObjects\LoginPage.class
 stepDefinitions\FunctionLibrary.class
 stepDefinitions\GiftcardStepDefinition.class

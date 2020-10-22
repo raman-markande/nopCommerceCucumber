@@ -1,11 +1,13 @@
 package stepDefinitions;
 
+
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 
 import com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter;
 
@@ -16,29 +18,36 @@ import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import io.cucumber.java.en.*;
 
-public class CategoryStepDefinition {
+public class CategoryStepDefinition extends FunctionLibrary{
 	public WebDriver driver;
 	public LoginPage lp;
 	public AddCategoryPage acp;
 
 	@Before("@Category")
-	public void setup(Scenario scenario) {
-		System.setProperty("webdriver.chrome.driver", "./Drivers\\\\chromedriver.exe");
-		driver = new ChromeDriver();
+	public void setup() {
+		if(System.getProperty("browserName").equals("chrome")) {
+			System.setProperty("webdriver.chrome.driver", config.getChromePath());
+			driver = new ChromeDriver();
+		} else if (System.getProperty("browserName").equals("edge")) {
+			System.setProperty("webdriver.edge.driver", config.getEdgePath());
+			driver = new EdgeDriver();
+		} else
+		{
+			System.setProperty("webdriver.chrome.driver", config.getChromePath());
+			driver = new ChromeDriver();			
+		}
 
-		driver.get("https://admin-demo.nopcommerce.com/login");
+		driver.get(config.getbaseURL());
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
-
+	
 	@After("@Category")
 	public void tearDown(Scenario scenario) throws IOException {
 
 		if (scenario.isFailed()) {
-			scenario.attach(FunctionLibrary.captureScreenForMvnCucumberReporting(driver, scenario.getName()),
-					"image/png", "./Screenshots/" + scenario.getName() + ".png");
-			ExtentCucumberAdapter.addTestStepScreenCaptureFromPath(
-					FunctionLibrary.captureScreenForExtentReporting(driver, scenario.getName()));
+			scenario.attach(FunctionLibrary.captureScreenForMvnCucumberReporting(driver, scenario.getName()),"image/png", "./Screenshots/" + scenario.getName() + ".png");
+			ExtentCucumberAdapter.addTestStepScreenCaptureFromPath(FunctionLibrary.captureScreenForExtentReporting(driver, scenario.getName()));
 			scenario.log("screenshot attached");
 			driver.quit();
 			Assert.assertTrue(false);
@@ -51,8 +60,8 @@ public class CategoryStepDefinition {
 	public void user_is_on_category_page() {
 		lp = new LoginPage(driver);
 		acp = new AddCategoryPage(driver);
-		lp.setUsername("admin@yourstore.com");
-		lp.setPassword("admin");
+		lp.setUsername(config.getUsername());
+		lp.setPassword(config.getPassword());
 		lp.clickLogin();
 
 		acp.clickcatalogTab();

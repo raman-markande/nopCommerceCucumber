@@ -1,14 +1,18 @@
 package stepDefinitions;
 
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 
 import com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter;
 
@@ -20,32 +24,45 @@ import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import io.cucumber.java.en.*;
 
-public class CampaignStepDefinitions{
-	public WebDriver driver;	
+public class CampaignStepDefinitions extends FunctionLibrary{
+	public WebDriver driver;
 	public LoginPage lp;
 	public AddCampaignsPage acp;
 	List<String> statusFlag = new ArrayList<>();
 	
 	@Before("@Campaign")
-	public void setup() {
-		System.setProperty("webdriver.chrome.driver", "./Drivers\\\\chromedriver.exe");
-		driver = new ChromeDriver();
-		
-		driver.get("https://admin-demo.nopcommerce.com/login");
+	public void setup(Scenario scenario) {
+		if(System.getProperty("browserName").equals("chrome")) {
+			System.setProperty("webdriver.chrome.driver", config.getChromePath());
+			driver = new ChromeDriver();
+		} else if (System.getProperty("browserName").equals("edge")) {
+			System.setProperty("webdriver.edge.driver", config.getEdgePath());
+			driver = new EdgeDriver();
+		} else
+		{
+			System.setProperty("webdriver.chrome.driver", config.getChromePath());
+			driver = new ChromeDriver();			
+		}
+
+		driver.get(config.getbaseURL());
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);		
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		
+		logger= Logger.getLogger(scenario.getName());
+		PropertyConfigurator.configure("Log4j.properties");
 	}
 	
 	@After("@Campaign")
-	public void tearDown(Scenario scenario) throws IOException {		
-		if(scenario.isFailed()) {
-			scenario.attach(FunctionLibrary.captureScreenForMvnCucumberReporting(driver, scenario.getName()), "image/png", "./Screenshots/" + scenario.getName() + ".png");
+	public void tearDown(Scenario scenario) throws IOException {
+
+		if (scenario.isFailed()) {
+			scenario.attach(FunctionLibrary.captureScreenForMvnCucumberReporting(driver, scenario.getName()),"image/png", "./Screenshots/" + scenario.getName() + ".png");
 			ExtentCucumberAdapter.addTestStepScreenCaptureFromPath(FunctionLibrary.captureScreenForExtentReporting(driver, scenario.getName()));
 			scenario.log("screenshot attached");
 			driver.quit();
 			Assert.assertTrue(false);
 		}
-		
+
 		driver.quit();
 	}
 	
@@ -53,13 +70,15 @@ public class CampaignStepDefinitions{
 	public void user_is_on_campaign_page() throws Exception {
 		lp= new LoginPage(driver);
 		acp= new AddCampaignsPage(driver);
-		lp.setUsername("admin@yourstore.com");
-		lp.setPassword("admin");
+		lp.setUsername(config.getUsername());
+		lp.setPassword(config.getPassword());
 		lp.clickLogin();
+		logger.info("User logged in");
 
 		acp.clickPromotionTab();
 		acp.clickCampaignsSubTab();
 		Thread.sleep(1000);
+		logger.info("User is on Campaigns Page");
 	}
 
 	@When("User clicks on Add button and enters below list of campaigns details")
@@ -68,11 +87,14 @@ public class CampaignStepDefinitions{
 		
 		for(Map<Object, Object> data: campaignTable.asMaps(String.class, String.class)) {			
 		acp.clickAddNew();
+		logger.info("Add New button clicked");
 		Thread.sleep(2000);
 		acp.setCampaignsName(data.get("Name").toString());
 		acp.setSubject(data.get("Subject").toString());
 		acp.setBody(data.get("Body").toString());
-		acp.clickSave();		
+		logger.info("Gift Card details entered");
+		acp.clickSave();
+		logger.info("Save button clicked");
 		Thread.sleep(2000);	
 		
 		if (driver.getPageSource().contains("The new campaign has been added successfully."))
@@ -86,11 +108,13 @@ public class CampaignStepDefinitions{
 	@Then("Above Campaigns should be created successfully")
 	public void above_campaigns_should_be_created_successfully() {
 		if(statusFlag.contains("fail")) {
+			logger.info("Failed: All mentioned campaigns are not added successfully");
 			System.out.println("All mentioned campaigns are not added successfully");
 			Assert.assertTrue(false);
 		}
 		else {
-			System.out.println("All mentioned campaigns are added successfully");
+			System.out.println("Passed: All mentioned campaigns are added successfully");
+			logger.info("Passed: All mentioned campaigns are added successfully");
 			Assert.assertTrue(true);
 		}
 
