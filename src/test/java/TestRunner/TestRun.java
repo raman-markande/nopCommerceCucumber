@@ -1,7 +1,6 @@
 package TestRunner;
 
 import org.junit.runner.RunWith;
-
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
@@ -12,6 +11,6 @@ import io.cucumber.junit.CucumberOptions;
 				 dryRun=false,
 				 plugin= {"json:target/cucumber.json", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 				)
-public class TestRun {
+public class TestRun{
 
 }

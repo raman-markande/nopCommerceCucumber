@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: TestRunner.TestRun
+Test set: Test only
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 169.115 s - in TestRunner.TestRun
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.678 s - in Test only

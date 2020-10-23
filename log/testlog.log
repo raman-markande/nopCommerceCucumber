@@ -21,3 +21,123 @@
 2020-10-22 18:18:16,732 - Edit Giftcard -INFO - Provided updated Giftcard details
 2020-10-22 18:18:18,247 - Edit Giftcard -INFO - Save button clicked
 2020-10-22 18:18:19,275 - Edit Giftcard -INFO - Passed: Gift card updated successfully
+2020-10-23 12:36:34,933 - Add New Giftcard -INFO - User logged in
+2020-10-23 12:36:35,731 - Add New Campaign -INFO - User logged in
+2020-10-23 12:36:39,308 - Add New Giftcard -INFO - User is on Gift Card Page
+2020-10-23 12:36:42,311 - Add New Giftcard -INFO - Add New button clicked
+2020-10-23 12:36:42,781 - Add New Campaign -INFO - User is on Campaigns Page
+2020-10-23 12:36:43,024 - Add New Giftcard -INFO - Gift Card details entered
+2020-10-23 12:36:44,855 - Add New Campaign -INFO - Add New button clicked
+2020-10-23 12:36:45,726 - Add New Giftcard -INFO - Save button clicked
+2020-10-23 12:36:45,768 - Add New Giftcard -INFO - Passed: Gift card added successfully
+2020-10-23 12:36:47,792 - Add New Campaign -INFO - Gift Card details entered
+2020-10-23 12:36:50,875 - Add New Campaign -INFO - Save button clicked
+2020-10-23 12:36:54,490 - Add New Campaign -INFO - Add New button clicked
+2020-10-23 12:36:57,021 - Add New Campaign -INFO - Gift Card details entered
+2020-10-23 12:36:58,758 - Add New Campaign -INFO - Save button clicked
+2020-10-23 12:37:00,951 - Edit Giftcard -INFO - User logged in
+2020-10-23 12:37:02,358 - Add New Campaign -INFO - Add New button clicked
+2020-10-23 12:37:04,795 - Add New Campaign -INFO - Gift Card details entered
+2020-10-23 12:37:06,416 - Edit Giftcard -INFO - User is on Gift Card Page
+2020-10-23 12:37:06,772 - Add New Campaign -INFO - Save button clicked
+2020-10-23 12:37:08,961 - Add New Campaign -INFO - Passed: All mentioned campaigns are added successfully
+2020-10-23 12:37:21,944 - Edit Giftcard -INFO - Provided updated Giftcard details
+2020-10-23 12:37:24,434 - Edit Giftcard -INFO - Save button clicked
+2020-10-23 12:37:25,462 - Edit Giftcard -INFO - Passed: Gift card updated successfully
+2020-10-23 12:42:13,962 - Add New Campaign -INFO - User logged in
+2020-10-23 12:42:14,761 - Add New Giftcard -INFO - User logged in
+2020-10-23 12:42:18,369 - Add New Giftcard -INFO - User is on Gift Card Page
+2020-10-23 12:42:20,049 - Add New Giftcard -INFO - Add New button clicked
+2020-10-23 12:42:20,628 - Add New Giftcard -INFO - Gift Card details entered
+2020-10-23 12:42:21,079 - Add New Campaign -INFO - User is on Campaigns Page
+2020-10-23 12:42:23,843 - Add New Campaign -INFO - Add New button clicked
+2020-10-23 12:42:24,611 - Add New Giftcard -INFO - Save button clicked
+2020-10-23 12:42:24,661 - Add New Giftcard -INFO - Passed: Gift card added successfully
+2020-10-23 12:42:26,375 - Add New Campaign -INFO - Gift Card details entered
+2020-10-23 12:42:29,408 - Add New Campaign -INFO - Save button clicked
+2020-10-23 12:42:34,663 - Add New Campaign -INFO - Add New button clicked
+2020-10-23 12:42:38,459 - Add New Campaign -INFO - Gift Card details entered
+2020-10-23 12:42:42,033 - Add New Campaign -INFO - Save button clicked
+2020-10-23 12:42:42,366 - Edit Giftcard -INFO - User logged in
+2020-10-23 12:42:45,597 - Add New Campaign -INFO - Add New button clicked
+2020-10-23 12:42:46,097 - Edit Giftcard -INFO - User is on Gift Card Page
+2020-10-23 12:42:48,298 - Add New Campaign -INFO - Gift Card details entered
+2020-10-23 12:42:48,337 - Edit Giftcard -INFO - Recipient Name: Brenda Lindgren is not present in data grid
+2020-10-23 12:42:52,431 - Add New Campaign -INFO - Save button clicked
+2020-10-23 12:42:54,478 - Add New Campaign -INFO - Passed: All mentioned campaigns are added successfully
+2020-10-23 12:51:01,806 - Add New Campaign -INFO - User logged in
+2020-10-23 12:51:07,802 - Add New Campaign -INFO - User is on Campaigns Page
+2020-10-23 12:51:09,516 - Add New Campaign -INFO - Add New button clicked
+2020-10-23 12:51:11,996 - Add New Campaign -INFO - Gift Card details entered
+2020-10-23 12:51:14,199 - Add New Campaign -INFO - Save button clicked
+2020-10-23 12:51:17,889 - Add New Campaign -INFO - Add New button clicked
+2020-10-23 12:51:20,502 - Add New Campaign -INFO - Gift Card details entered
+2020-10-23 12:51:22,692 - Add New Campaign -INFO - Save button clicked
+2020-10-23 12:51:26,272 - Add New Campaign -INFO - Add New button clicked
+2020-10-23 12:51:28,911 - Add New Campaign -INFO - Gift Card details entered
+2020-10-23 12:51:30,942 - Add New Campaign -INFO - Save button clicked
+2020-10-23 12:51:32,998 - Add New Campaign -INFO - Passed: All mentioned campaigns are added successfully
+2020-10-23 12:53:23,612 - Add New Giftcard -INFO - User logged in
+2020-10-23 12:53:26,418 - Add New Giftcard -INFO - User is on Gift Card Page
+2020-10-23 12:53:27,983 - Add New Giftcard -INFO - Add New button clicked
+2020-10-23 12:53:28,428 - Add New Giftcard -INFO - Gift Card details entered
+2020-10-23 12:53:30,782 - Add New Giftcard -INFO - Save button clicked
+2020-10-23 12:53:30,861 - Add New Giftcard -INFO - Passed: Gift card added successfully
+2020-10-23 12:53:44,469 - Edit Giftcard -INFO - User logged in
+2020-10-23 12:53:47,481 - Edit Giftcard -INFO - User is on Gift Card Page
+2020-10-23 12:53:49,898 - Edit Giftcard -INFO - Recipient Name: Brenda Lindgren is not present in data grid
+2020-10-23 13:21:18,228 - Add New Campaign -INFO - User logged in
+2020-10-23 13:24:38,612 - Add New Campaign -INFO - User logged in
+2020-10-23 13:24:44,464 - Add New Campaign -INFO - User is on Campaigns Page
+2020-10-23 13:24:46,648 - Add New Campaign -INFO - Add New button clicked
+2020-10-23 13:27:37,867 - Add New Giftcard -INFO - User logged in
+2020-10-23 13:27:38,060 - Add New Campaign -INFO - User logged in
+2020-10-23 13:27:42,162 - Add New Giftcard -INFO - User is on Gift Card Page
+2020-10-23 13:27:45,786 - Add New Giftcard -INFO - Add New button clicked
+2020-10-23 13:27:45,805 - Add New Campaign -INFO - User is on Campaigns Page
+2020-10-23 13:27:46,466 - Add New Giftcard -INFO - Gift Card details entered
+2020-10-23 13:27:48,736 - Add New Campaign -INFO - Add New button clicked
+2020-10-23 13:27:49,751 - Add New Giftcard -INFO - Save button clicked
+2020-10-23 13:27:49,796 - Add New Giftcard -INFO - Passed: Gift card added successfully
+2020-10-23 13:27:51,221 - Add New Campaign -INFO - Gift Card details entered
+2020-10-23 13:27:54,789 - Add New Campaign -INFO - Save button clicked
+2020-10-23 13:27:59,530 - Add New Campaign -INFO - Add New button clicked
+2020-10-23 13:28:02,058 - Add New Campaign -INFO - Gift Card details entered
+2020-10-23 13:28:04,810 - Add New Campaign -INFO - Save button clicked
+2020-10-23 13:28:05,907 - Edit Giftcard -INFO - User logged in
+2020-10-23 13:28:08,867 - Add New Campaign -INFO - Add New button clicked
+2020-10-23 13:28:10,349 - Edit Giftcard -INFO - User is on Gift Card Page
+2020-10-23 13:28:11,371 - Add New Campaign -INFO - Gift Card details entered
+2020-10-23 13:28:13,472 - Add New Campaign -INFO - Save button clicked
+2020-10-23 13:28:15,500 - Add New Campaign -INFO - Passed: All mentioned campaigns are added successfully
+2020-10-23 13:28:25,317 - Edit Giftcard -INFO - Provided updated Giftcard details
+2020-10-23 13:28:27,783 - Edit Giftcard -INFO - Save button clicked
+2020-10-23 13:28:28,810 - Edit Giftcard -INFO - Passed: Gift card updated successfully
+2020-10-23 16:15:29,807 - Add New Campaign -INFO - User logged in
+2020-10-23 16:15:36,021 - Add New Campaign -INFO - User is on Campaigns Page
+2020-10-23 16:15:37,758 - Add New Campaign -INFO - Add New button clicked
+2020-10-23 16:15:40,447 - Add New Campaign -INFO - Gift Card details entered
+2020-10-23 16:15:43,010 - Add New Campaign -INFO - Save button clicked
+2020-10-23 16:19:07,532 - Add New Campaign -INFO - User logged in
+2020-10-23 16:19:07,872 - Add New Giftcard -INFO - User logged in
+2020-10-23 16:19:11,104 - Add New Giftcard -INFO - User is on Gift Card Page
+2020-10-23 16:19:12,993 - Add New Giftcard -INFO - Add New button clicked
+2020-10-23 16:19:13,810 - Add New Giftcard -INFO - Gift Card details entered
+2020-10-23 16:19:14,854 - Add New Campaign -INFO - User is on Campaigns Page
+2020-10-23 16:19:16,416 - Add New Campaign -INFO - Add New button clicked
+2020-10-23 16:19:16,421 - Add New Giftcard -INFO - Save button clicked
+2020-10-23 16:19:16,493 - Add New Giftcard -INFO - Passed: Gift card added successfully
+2020-10-23 16:19:19,959 - Add New Campaign -INFO - Gift Card details entered
+2020-10-23 16:19:22,293 - Add New Campaign -INFO - Save button clicked
+2020-10-23 16:19:26,139 - Add New Campaign -INFO - Add New button clicked
+2020-10-23 16:19:28,638 - Add New Campaign -INFO - Gift Card details entered
+2020-10-23 16:19:30,436 - Add New Campaign -INFO - Save button clicked
+2020-10-23 16:19:30,980 - Edit Giftcard -INFO - User logged in
+2020-10-23 16:19:33,944 - Add New Campaign -INFO - Add New button clicked
+2020-10-23 16:19:34,444 - Edit Giftcard -INFO - User is on Gift Card Page
+2020-10-23 16:19:36,402 - Add New Campaign -INFO - Gift Card details entered
+2020-10-23 16:19:38,783 - Add New Campaign -INFO - Save button clicked
+2020-10-23 16:19:40,807 - Add New Campaign -INFO - Passed: All mentioned campaigns are added successfully
+2020-10-23 16:19:48,753 - Edit Giftcard -INFO - Provided updated Giftcard details
+2020-10-23 16:19:51,035 - Edit Giftcard -INFO - Save button clicked
+2020-10-23 16:19:52,071 - Edit Giftcard -INFO - Passed: Gift card updated successfully
