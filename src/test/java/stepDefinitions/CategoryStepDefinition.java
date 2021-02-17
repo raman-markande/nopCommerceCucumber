@@ -1,28 +1,26 @@
 package stepDefinitions;
 
 
-import java.io.IOException;
-import java.util.concurrent.TimeUnit;
-
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
 
-import com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter;
+
 
 import PageObjects.AddCategoryPage;
 import PageObjects.LoginPage;
-import io.cucumber.java.After;
-import io.cucumber.java.Before;
-import io.cucumber.java.Scenario;
 import io.cucumber.java.en.*;
+import utilities.CommonFunctions;
+import utilities.DriverInit;
 
-public class CategoryStepDefinition extends FunctionLibrary{
-	public WebDriver driver;
+public class CategoryStepDefinition extends CommonFunctions{
+
+
+	//DriverInit dr = new DriverInit();
+	private WebDriver driver = DriverInit.getDriver();
 	public LoginPage lp;
 	public AddCategoryPage acp;
 
+	/*
 	@Before("@Category")
 	public void setup() {
 		if(System.getProperty("browserName").equals("chrome")) {
@@ -54,12 +52,13 @@ public class CategoryStepDefinition extends FunctionLibrary{
 		}
 
 		driver.quit();
-	}
+	}*/
 
 	@Given("User is on Category page")
 	public void user_is_on_category_page() {
 		lp = new LoginPage(driver);
 		acp = new AddCategoryPage(driver);
+		System.out.println("config.getUsername():  " + config.getUsername());
 		lp.setUsername(config.getUsername());
 		lp.setPassword(config.getPassword());
 		lp.clickLogin();

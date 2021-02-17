@@ -4,7 +4,7 @@ Background: Common steps
 	Given User is on Giftcard page 
 	
 	
-@GiftCard 
+@Giftcard
 Scenario: Add New Giftcard 
 	When User clicks on Add button and enters below giftcard details 
 		|OrderType|RecipientName|SenderName|
@@ -12,7 +12,7 @@ Scenario: Add New Giftcard
 	Then Above Giftcard should be created successfully 
 	
 	
-@GiftCard 
+@Giftcard
 Scenario: Edit Giftcard 
 	When User selects existing Giftcard with Recipient Name as "Brenda Lindgren" to edit 
 	And updates Giftcard details as below 

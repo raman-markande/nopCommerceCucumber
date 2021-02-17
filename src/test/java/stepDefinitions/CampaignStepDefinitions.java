@@ -1,36 +1,32 @@
 package stepDefinitions;
 
 
-import java.io.IOException;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
-
-import com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter;
-
 import PageObjects.AddCampaignsPage;
 import PageObjects.LoginPage;
 import io.cucumber.datatable.DataTable;
-import io.cucumber.java.After;
-import io.cucumber.java.Before;
-import io.cucumber.java.Scenario;
 import io.cucumber.java.en.*;
+import utilities.CommonFunctions;
+import utilities.DriverInit;
 
-public class CampaignStepDefinitions extends FunctionLibrary{
-	public WebDriver driver;
+public class CampaignStepDefinitions extends CommonFunctions{
+	private WebDriver driver = DriverInit.getDriver();
 	public LoginPage lp;
 	public AddCampaignsPage acp;
 	List<String> statusFlag = new ArrayList<>();
+	Logger logger = Logger.getLogger(getClass().getName());
+	//PropertyConfigurator.configure("Log4j.properties");
 	
-	@Before("@Campaign")
+	
+	
+	/*@Before("@Campaign")
 	public void setup(Scenario scenario) {
 		if(System.getProperty("browserName").equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver", config.getChromePath());
@@ -64,7 +60,7 @@ public class CampaignStepDefinitions extends FunctionLibrary{
 		}
 
 		driver.quit();
-	}
+	}*/
 	
 	@Given("User is on Campaign page")
 	public void user_is_on_campaign_page() throws Exception {
@@ -74,6 +70,7 @@ public class CampaignStepDefinitions extends FunctionLibrary{
 		lp.setPassword(config.getPassword());
 		lp.clickLogin();
 		logger.info("User logged in");
+		Thread.sleep(2000);
 
 		acp.clickPromotionTab();
 		acp.clickCampaignsSubTab();

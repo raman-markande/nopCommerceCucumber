@@ -1,143 +1,229 @@
-2020-10-22 18:15:44,255 - Add New Campaign -INFO - User logged in
-2020-10-22 18:15:49,208 - Add New Campaign -INFO - User is on Campaigns Page
-2020-10-22 18:15:50,376 - Add New Campaign -INFO - Add New button clicked
-2020-10-22 18:15:52,584 - Add New Campaign -INFO - Gift Card details entered
-2020-10-22 18:15:54,372 - Add New Campaign -INFO - Save button clicked
-2020-10-22 18:15:57,443 - Add New Campaign -INFO - Add New button clicked
-2020-10-22 18:15:59,659 - Add New Campaign -INFO - Gift Card details entered
-2020-10-22 18:16:01,126 - Add New Campaign -INFO - Save button clicked
-2020-10-22 18:16:04,209 - Add New Campaign -INFO - Add New button clicked
-2020-10-22 18:16:06,434 - Add New Campaign -INFO - Gift Card details entered
-2020-10-22 18:16:07,894 - Add New Campaign -INFO - Save button clicked
-2020-10-22 18:16:09,911 - Add New Campaign -INFO - Passed: All mentioned campaigns are added successfully
-2020-10-22 18:17:43,208 - Add New Giftcard -INFO - User logged in
-2020-10-22 18:17:45,186 - Add New Giftcard -INFO - User is on Gift Card Page
-2020-10-22 18:17:46,293 - Add New Giftcard -INFO - Add New button clicked
-2020-10-22 18:17:46,551 - Add New Giftcard -INFO - Gift Card details entered
-2020-10-22 18:17:48,474 - Add New Giftcard -INFO - Save button clicked
-2020-10-22 18:17:48,499 - Add New Giftcard -INFO - Passed: Gift card added successfully
-2020-10-22 18:18:01,257 - Edit Giftcard -INFO - User logged in
-2020-10-22 18:18:03,167 - Edit Giftcard -INFO - User is on Gift Card Page
-2020-10-22 18:18:16,732 - Edit Giftcard -INFO - Provided updated Giftcard details
-2020-10-22 18:18:18,247 - Edit Giftcard -INFO - Save button clicked
-2020-10-22 18:18:19,275 - Edit Giftcard -INFO - Passed: Gift card updated successfully
-2020-10-23 12:36:34,933 - Add New Giftcard -INFO - User logged in
-2020-10-23 12:36:35,731 - Add New Campaign -INFO - User logged in
-2020-10-23 12:36:39,308 - Add New Giftcard -INFO - User is on Gift Card Page
-2020-10-23 12:36:42,311 - Add New Giftcard -INFO - Add New button clicked
-2020-10-23 12:36:42,781 - Add New Campaign -INFO - User is on Campaigns Page
-2020-10-23 12:36:43,024 - Add New Giftcard -INFO - Gift Card details entered
-2020-10-23 12:36:44,855 - Add New Campaign -INFO - Add New button clicked
-2020-10-23 12:36:45,726 - Add New Giftcard -INFO - Save button clicked
-2020-10-23 12:36:45,768 - Add New Giftcard -INFO - Passed: Gift card added successfully
-2020-10-23 12:36:47,792 - Add New Campaign -INFO - Gift Card details entered
-2020-10-23 12:36:50,875 - Add New Campaign -INFO - Save button clicked
-2020-10-23 12:36:54,490 - Add New Campaign -INFO - Add New button clicked
-2020-10-23 12:36:57,021 - Add New Campaign -INFO - Gift Card details entered
-2020-10-23 12:36:58,758 - Add New Campaign -INFO - Save button clicked
-2020-10-23 12:37:00,951 - Edit Giftcard -INFO - User logged in
-2020-10-23 12:37:02,358 - Add New Campaign -INFO - Add New button clicked
-2020-10-23 12:37:04,795 - Add New Campaign -INFO - Gift Card details entered
-2020-10-23 12:37:06,416 - Edit Giftcard -INFO - User is on Gift Card Page
-2020-10-23 12:37:06,772 - Add New Campaign -INFO - Save button clicked
-2020-10-23 12:37:08,961 - Add New Campaign -INFO - Passed: All mentioned campaigns are added successfully
-2020-10-23 12:37:21,944 - Edit Giftcard -INFO - Provided updated Giftcard details
-2020-10-23 12:37:24,434 - Edit Giftcard -INFO - Save button clicked
-2020-10-23 12:37:25,462 - Edit Giftcard -INFO - Passed: Gift card updated successfully
-2020-10-23 12:42:13,962 - Add New Campaign -INFO - User logged in
-2020-10-23 12:42:14,761 - Add New Giftcard -INFO - User logged in
-2020-10-23 12:42:18,369 - Add New Giftcard -INFO - User is on Gift Card Page
-2020-10-23 12:42:20,049 - Add New Giftcard -INFO - Add New button clicked
-2020-10-23 12:42:20,628 - Add New Giftcard -INFO - Gift Card details entered
-2020-10-23 12:42:21,079 - Add New Campaign -INFO - User is on Campaigns Page
-2020-10-23 12:42:23,843 - Add New Campaign -INFO - Add New button clicked
-2020-10-23 12:42:24,611 - Add New Giftcard -INFO - Save button clicked
-2020-10-23 12:42:24,661 - Add New Giftcard -INFO - Passed: Gift card added successfully
-2020-10-23 12:42:26,375 - Add New Campaign -INFO - Gift Card details entered
-2020-10-23 12:42:29,408 - Add New Campaign -INFO - Save button clicked
-2020-10-23 12:42:34,663 - Add New Campaign -INFO - Add New button clicked
-2020-10-23 12:42:38,459 - Add New Campaign -INFO - Gift Card details entered
-2020-10-23 12:42:42,033 - Add New Campaign -INFO - Save button clicked
-2020-10-23 12:42:42,366 - Edit Giftcard -INFO - User logged in
-2020-10-23 12:42:45,597 - Add New Campaign -INFO - Add New button clicked
-2020-10-23 12:42:46,097 - Edit Giftcard -INFO - User is on Gift Card Page
-2020-10-23 12:42:48,298 - Add New Campaign -INFO - Gift Card details entered
-2020-10-23 12:42:48,337 - Edit Giftcard -INFO - Recipient Name: Brenda Lindgren is not present in data grid
-2020-10-23 12:42:52,431 - Add New Campaign -INFO - Save button clicked
-2020-10-23 12:42:54,478 - Add New Campaign -INFO - Passed: All mentioned campaigns are added successfully
-2020-10-23 12:51:01,806 - Add New Campaign -INFO - User logged in
-2020-10-23 12:51:07,802 - Add New Campaign -INFO - User is on Campaigns Page
-2020-10-23 12:51:09,516 - Add New Campaign -INFO - Add New button clicked
-2020-10-23 12:51:11,996 - Add New Campaign -INFO - Gift Card details entered
-2020-10-23 12:51:14,199 - Add New Campaign -INFO - Save button clicked
-2020-10-23 12:51:17,889 - Add New Campaign -INFO - Add New button clicked
-2020-10-23 12:51:20,502 - Add New Campaign -INFO - Gift Card details entered
-2020-10-23 12:51:22,692 - Add New Campaign -INFO - Save button clicked
-2020-10-23 12:51:26,272 - Add New Campaign -INFO - Add New button clicked
-2020-10-23 12:51:28,911 - Add New Campaign -INFO - Gift Card details entered
-2020-10-23 12:51:30,942 - Add New Campaign -INFO - Save button clicked
-2020-10-23 12:51:32,998 - Add New Campaign -INFO - Passed: All mentioned campaigns are added successfully
-2020-10-23 12:53:23,612 - Add New Giftcard -INFO - User logged in
-2020-10-23 12:53:26,418 - Add New Giftcard -INFO - User is on Gift Card Page
-2020-10-23 12:53:27,983 - Add New Giftcard -INFO - Add New button clicked
-2020-10-23 12:53:28,428 - Add New Giftcard -INFO - Gift Card details entered
-2020-10-23 12:53:30,782 - Add New Giftcard -INFO - Save button clicked
-2020-10-23 12:53:30,861 - Add New Giftcard -INFO - Passed: Gift card added successfully
-2020-10-23 12:53:44,469 - Edit Giftcard -INFO - User logged in
-2020-10-23 12:53:47,481 - Edit Giftcard -INFO - User is on Gift Card Page
-2020-10-23 12:53:49,898 - Edit Giftcard -INFO - Recipient Name: Brenda Lindgren is not present in data grid
-2020-10-23 13:21:18,228 - Add New Campaign -INFO - User logged in
-2020-10-23 13:24:38,612 - Add New Campaign -INFO - User logged in
-2020-10-23 13:24:44,464 - Add New Campaign -INFO - User is on Campaigns Page
-2020-10-23 13:24:46,648 - Add New Campaign -INFO - Add New button clicked
-2020-10-23 13:27:37,867 - Add New Giftcard -INFO - User logged in
-2020-10-23 13:27:38,060 - Add New Campaign -INFO - User logged in
-2020-10-23 13:27:42,162 - Add New Giftcard -INFO - User is on Gift Card Page
-2020-10-23 13:27:45,786 - Add New Giftcard -INFO - Add New button clicked
-2020-10-23 13:27:45,805 - Add New Campaign -INFO - User is on Campaigns Page
-2020-10-23 13:27:46,466 - Add New Giftcard -INFO - Gift Card details entered
-2020-10-23 13:27:48,736 - Add New Campaign -INFO - Add New button clicked
-2020-10-23 13:27:49,751 - Add New Giftcard -INFO - Save button clicked
-2020-10-23 13:27:49,796 - Add New Giftcard -INFO - Passed: Gift card added successfully
-2020-10-23 13:27:51,221 - Add New Campaign -INFO - Gift Card details entered
-2020-10-23 13:27:54,789 - Add New Campaign -INFO - Save button clicked
-2020-10-23 13:27:59,530 - Add New Campaign -INFO - Add New button clicked
-2020-10-23 13:28:02,058 - Add New Campaign -INFO - Gift Card details entered
-2020-10-23 13:28:04,810 - Add New Campaign -INFO - Save button clicked
-2020-10-23 13:28:05,907 - Edit Giftcard -INFO - User logged in
-2020-10-23 13:28:08,867 - Add New Campaign -INFO - Add New button clicked
-2020-10-23 13:28:10,349 - Edit Giftcard -INFO - User is on Gift Card Page
-2020-10-23 13:28:11,371 - Add New Campaign -INFO - Gift Card details entered
-2020-10-23 13:28:13,472 - Add New Campaign -INFO - Save button clicked
-2020-10-23 13:28:15,500 - Add New Campaign -INFO - Passed: All mentioned campaigns are added successfully
-2020-10-23 13:28:25,317 - Edit Giftcard -INFO - Provided updated Giftcard details
-2020-10-23 13:28:27,783 - Edit Giftcard -INFO - Save button clicked
-2020-10-23 13:28:28,810 - Edit Giftcard -INFO - Passed: Gift card updated successfully
-2020-10-23 16:15:29,807 - Add New Campaign -INFO - User logged in
-2020-10-23 16:15:36,021 - Add New Campaign -INFO - User is on Campaigns Page
-2020-10-23 16:15:37,758 - Add New Campaign -INFO - Add New button clicked
-2020-10-23 16:15:40,447 - Add New Campaign -INFO - Gift Card details entered
-2020-10-23 16:15:43,010 - Add New Campaign -INFO - Save button clicked
-2020-10-23 16:19:07,532 - Add New Campaign -INFO - User logged in
-2020-10-23 16:19:07,872 - Add New Giftcard -INFO - User logged in
-2020-10-23 16:19:11,104 - Add New Giftcard -INFO - User is on Gift Card Page
-2020-10-23 16:19:12,993 - Add New Giftcard -INFO - Add New button clicked
-2020-10-23 16:19:13,810 - Add New Giftcard -INFO - Gift Card details entered
-2020-10-23 16:19:14,854 - Add New Campaign -INFO - User is on Campaigns Page
-2020-10-23 16:19:16,416 - Add New Campaign -INFO - Add New button clicked
-2020-10-23 16:19:16,421 - Add New Giftcard -INFO - Save button clicked
-2020-10-23 16:19:16,493 - Add New Giftcard -INFO - Passed: Gift card added successfully
-2020-10-23 16:19:19,959 - Add New Campaign -INFO - Gift Card details entered
-2020-10-23 16:19:22,293 - Add New Campaign -INFO - Save button clicked
-2020-10-23 16:19:26,139 - Add New Campaign -INFO - Add New button clicked
-2020-10-23 16:19:28,638 - Add New Campaign -INFO - Gift Card details entered
-2020-10-23 16:19:30,436 - Add New Campaign -INFO - Save button clicked
-2020-10-23 16:19:30,980 - Edit Giftcard -INFO - User logged in
-2020-10-23 16:19:33,944 - Add New Campaign -INFO - Add New button clicked
-2020-10-23 16:19:34,444 - Edit Giftcard -INFO - User is on Gift Card Page
-2020-10-23 16:19:36,402 - Add New Campaign -INFO - Gift Card details entered
-2020-10-23 16:19:38,783 - Add New Campaign -INFO - Save button clicked
-2020-10-23 16:19:40,807 - Add New Campaign -INFO - Passed: All mentioned campaigns are added successfully
-2020-10-23 16:19:48,753 - Edit Giftcard -INFO - Provided updated Giftcard details
-2020-10-23 16:19:51,035 - Edit Giftcard -INFO - Save button clicked
-2020-10-23 16:19:52,071 - Edit Giftcard -INFO - Passed: Gift card updated successfully
+2021-02-17 12:20:39,868 - stepDefinitions.GiftcardStepDefinition -INFO - User logged in
+2021-02-17 12:20:41,255 - stepDefinitions.CampaignStepDefinitions -INFO - User logged in
+2021-02-17 12:20:43,860 - stepDefinitions.GiftcardStepDefinition -INFO - User is on Gift Card Page
+2021-02-17 12:20:48,015 - stepDefinitions.CampaignStepDefinitions -INFO - User is on Campaigns Page
+2021-02-17 12:20:48,488 - stepDefinitions.GiftcardStepDefinition -INFO - Add New button clicked
+2021-02-17 12:20:49,087 - stepDefinitions.GiftcardStepDefinition -INFO - Gift Card details entered
+2021-02-17 12:20:50,002 - stepDefinitions.CampaignStepDefinitions -INFO - Add New button clicked
+2021-02-17 12:20:51,641 - stepDefinitions.GiftcardStepDefinition -INFO - Save button clicked
+2021-02-17 12:20:52,004 - stepDefinitions.GiftcardStepDefinition -INFO - Passed: Gift card added successfully
+2021-02-17 12:20:52,838 - stepDefinitions.CampaignStepDefinitions -INFO - Gift Card details entered
+2021-02-17 12:20:55,746 - stepDefinitions.CampaignStepDefinitions -INFO - Save button clicked
+2021-02-17 12:20:59,089 - stepDefinitions.CampaignStepDefinitions -INFO - Add New button clicked
+2021-02-17 12:21:01,533 - stepDefinitions.CampaignStepDefinitions -INFO - Gift Card details entered
+2021-02-17 12:21:03,241 - stepDefinitions.CampaignStepDefinitions -INFO - Save button clicked
+2021-02-17 12:21:06,727 - stepDefinitions.CampaignStepDefinitions -INFO - Add New button clicked
+2021-02-17 12:21:07,299 - stepDefinitions.GiftcardStepDefinition -INFO - User logged in
+2021-02-17 12:21:10,375 - stepDefinitions.CampaignStepDefinitions -INFO - Gift Card details entered
+2021-02-17 12:21:11,844 - stepDefinitions.GiftcardStepDefinition -INFO - User is on Gift Card Page
+2021-02-17 12:21:13,152 - stepDefinitions.CampaignStepDefinitions -INFO - Save button clicked
+2021-02-17 12:21:15,173 - stepDefinitions.CampaignStepDefinitions -INFO - Passed: All mentioned campaigns are added successfully
+2021-02-17 12:21:27,756 - stepDefinitions.GiftcardStepDefinition -INFO - Provided updated Giftcard details
+2021-02-17 12:21:30,051 - stepDefinitions.GiftcardStepDefinition -INFO - Save button clicked
+2021-02-17 12:21:31,093 - stepDefinitions.GiftcardStepDefinition -INFO - Passed: Gift card updated successfully
+2021-02-17 12:26:04,410 - stepDefinitions.GiftcardStepDefinition -INFO - User logged in
+2021-02-17 12:26:08,314 - stepDefinitions.GiftcardStepDefinition -INFO - User is on Gift Card Page
+2021-02-17 12:26:11,011 - stepDefinitions.GiftcardStepDefinition -INFO - Add New button clicked
+2021-02-17 12:26:11,853 - stepDefinitions.GiftcardStepDefinition -INFO - Gift Card details entered
+2021-02-17 12:26:14,722 - stepDefinitions.GiftcardStepDefinition -INFO - Save button clicked
+2021-02-17 12:26:14,793 - stepDefinitions.GiftcardStepDefinition -INFO - Passed: Gift card added successfully
+2021-02-17 12:26:29,128 - stepDefinitions.GiftcardStepDefinition -INFO - User logged in
+2021-02-17 12:26:33,488 - stepDefinitions.GiftcardStepDefinition -INFO - User is on Gift Card Page
+2021-02-17 12:26:35,822 - stepDefinitions.GiftcardStepDefinition -INFO - Recipient Name: Brenda Lindgren is not present in data grid
+2021-02-17 12:27:44,103 - stepDefinitions.GiftcardStepDefinition -INFO - User logged in
+2021-02-17 12:27:48,465 - stepDefinitions.GiftcardStepDefinition -INFO - User is on Gift Card Page
+2021-02-17 12:27:50,128 - stepDefinitions.GiftcardStepDefinition -INFO - Add New button clicked
+2021-02-17 12:27:51,097 - stepDefinitions.GiftcardStepDefinition -INFO - Gift Card details entered
+2021-02-17 12:27:53,218 - stepDefinitions.GiftcardStepDefinition -INFO - Save button clicked
+2021-02-17 12:27:53,297 - stepDefinitions.GiftcardStepDefinition -INFO - Passed: Gift card added successfully
+2021-02-17 12:28:04,589 - stepDefinitions.GiftcardStepDefinition -INFO - User logged in
+2021-02-17 12:28:08,304 - stepDefinitions.GiftcardStepDefinition -INFO - User is on Gift Card Page
+2021-02-17 12:28:10,659 - stepDefinitions.GiftcardStepDefinition -INFO - Recipient Name: Brenda Lindgren is not present in data grid
+2021-02-17 12:55:53,971 - stepDefinitions.CampaignStepDefinitions -INFO - User logged in
+2021-02-17 12:55:54,139 - stepDefinitions.GiftcardStepDefinition -INFO - User logged in
+2021-02-17 12:55:59,441 - stepDefinitions.GiftcardStepDefinition -INFO - User is on Gift Card Page
+2021-02-17 12:55:59,885 - stepDefinitions.GiftcardStepDefinition -INFO - Add New button clicked
+2021-02-17 12:56:01,285 - stepDefinitions.CampaignStepDefinitions -INFO - User is on Campaigns Page
+2021-02-17 12:56:01,516 - stepDefinitions.CampaignStepDefinitions -INFO - Add New button clicked
+2021-02-17 13:10:49,450 - stepDefinitions.CampaignStepDefinitions -INFO - User logged in
+2021-02-17 13:10:50,746 - stepDefinitions.GiftcardStepDefinition -INFO - User logged in
+2021-02-17 13:10:54,763 - stepDefinitions.GiftcardStepDefinition -INFO - User is on Gift Card Page
+2021-02-17 13:10:57,299 - stepDefinitions.GiftcardStepDefinition -INFO - Add New button clicked
+2021-02-17 13:10:57,754 - stepDefinitions.CampaignStepDefinitions -INFO - User is on Campaigns Page
+2021-02-17 13:10:57,882 - stepDefinitions.GiftcardStepDefinition -INFO - Gift Card details entered
+2021-02-17 13:10:59,781 - stepDefinitions.GiftcardStepDefinition -INFO - Save button clicked
+2021-02-17 13:10:59,826 - stepDefinitions.GiftcardStepDefinition -INFO - Passed: Gift card added successfully
+2021-02-17 13:11:01,350 - stepDefinitions.CampaignStepDefinitions -INFO - Add New button clicked
+2021-02-17 13:11:04,160 - stepDefinitions.CampaignStepDefinitions -INFO - Gift Card details entered
+2021-02-17 13:11:07,156 - stepDefinitions.CampaignStepDefinitions -INFO - Save button clicked
+2021-02-17 13:11:11,760 - stepDefinitions.CampaignStepDefinitions -INFO - Add New button clicked
+2021-02-17 13:11:14,358 - stepDefinitions.CampaignStepDefinitions -INFO - Gift Card details entered
+2021-02-17 13:11:15,381 - stepDefinitions.GiftcardStepDefinition -INFO - User logged in
+2021-02-17 13:11:17,881 - stepDefinitions.GiftcardStepDefinition -INFO - User is on Gift Card Page
+2021-02-17 13:11:19,283 - stepDefinitions.CampaignStepDefinitions -INFO - Save button clicked
+2021-02-17 13:11:20,145 - stepDefinitions.GiftcardStepDefinition -INFO - Recipient Name: Brenda Lindgren is not present in data grid
+2021-02-17 13:11:23,007 - stepDefinitions.CampaignStepDefinitions -INFO - Add New button clicked
+2021-02-17 13:11:25,620 - stepDefinitions.CampaignStepDefinitions -INFO - Gift Card details entered
+2021-02-17 13:11:29,605 - stepDefinitions.CampaignStepDefinitions -INFO - Save button clicked
+2021-02-17 13:11:31,633 - stepDefinitions.CampaignStepDefinitions -INFO - Passed: All mentioned campaigns are added successfully
+2021-02-17 13:12:04,235 - org.apache.pdfbox.pdmodel.font.FileSystemFontProvider -WARN - New fonts found, font cache will be re-built
+2021-02-17 13:12:04,236 - org.apache.pdfbox.pdmodel.font.FileSystemFontProvider -WARN - Building on-disk font cache, this may take a while
+2021-02-17 13:12:04,941 - org.apache.pdfbox.pdmodel.font.FileSystemFontProvider -WARN - Finished building on-disk font cache, found 386 fonts
+2021-02-17 15:51:57,750 - stepDefinitions.GiftcardStepDefinition -INFO - User logged in
+2021-02-17 15:51:59,107 - stepDefinitions.CampaignStepDefinitions -INFO - User logged in
+2021-02-17 15:52:02,384 - stepDefinitions.GiftcardStepDefinition -INFO - User is on Gift Card Page
+2021-02-17 15:52:06,278 - stepDefinitions.GiftcardStepDefinition -INFO - Add New button clicked
+2021-02-17 15:52:06,882 - stepDefinitions.GiftcardStepDefinition -INFO - Gift Card details entered
+2021-02-17 15:52:07,325 - stepDefinitions.CampaignStepDefinitions -INFO - User is on Campaigns Page
+2021-02-17 15:52:10,764 - stepDefinitions.GiftcardStepDefinition -INFO - Save button clicked
+2021-02-17 15:52:10,806 - stepDefinitions.CampaignStepDefinitions -INFO - Add New button clicked
+2021-02-17 15:52:10,879 - stepDefinitions.GiftcardStepDefinition -INFO - Passed: Gift card added successfully
+2021-02-17 15:52:14,428 - stepDefinitions.CampaignStepDefinitions -INFO - Gift Card details entered
+2021-02-17 15:52:17,509 - stepDefinitions.CampaignStepDefinitions -INFO - Save button clicked
+2021-02-17 15:52:21,204 - stepDefinitions.CampaignStepDefinitions -INFO - Add New button clicked
+2021-02-17 15:52:24,090 - stepDefinitions.CampaignStepDefinitions -INFO - Gift Card details entered
+2021-02-17 15:52:24,827 - stepDefinitions.GiftcardStepDefinition -INFO - User logged in
+2021-02-17 15:52:26,265 - stepDefinitions.CampaignStepDefinitions -INFO - Save button clicked
+2021-02-17 15:52:27,979 - stepDefinitions.GiftcardStepDefinition -INFO - User is on Gift Card Page
+2021-02-17 15:52:32,136 - stepDefinitions.CampaignStepDefinitions -INFO - Add New button clicked
+2021-02-17 15:52:34,585 - stepDefinitions.CampaignStepDefinitions -INFO - Gift Card details entered
+2021-02-17 15:52:38,664 - stepDefinitions.CampaignStepDefinitions -INFO - Save button clicked
+2021-02-17 15:52:40,693 - stepDefinitions.CampaignStepDefinitions -INFO - Passed: All mentioned campaigns are added successfully
+2021-02-17 15:52:42,667 - stepDefinitions.GiftcardStepDefinition -INFO - Provided updated Giftcard details
+2021-02-17 15:52:45,700 - stepDefinitions.GiftcardStepDefinition -INFO - Save button clicked
+2021-02-17 15:52:46,724 - stepDefinitions.GiftcardStepDefinition -INFO - Passed: Gift card updated successfully
+2021-02-17 16:11:22,517 - stepDefinitions.GiftcardStepDefinition -INFO - User logged in
+2021-02-17 16:11:24,087 - stepDefinitions.CampaignStepDefinitions -INFO - User logged in
+2021-02-17 16:11:27,533 - stepDefinitions.GiftcardStepDefinition -INFO - User is on Gift Card Page
+2021-02-17 16:11:29,085 - stepDefinitions.GiftcardStepDefinition -INFO - Add New button clicked
+2021-02-17 16:11:29,670 - stepDefinitions.GiftcardStepDefinition -INFO - Gift Card details entered
+2021-02-17 16:11:32,692 - stepDefinitions.GiftcardStepDefinition -INFO - Save button clicked
+2021-02-17 16:11:32,741 - stepDefinitions.GiftcardStepDefinition -INFO - Passed: Gift card added successfully
+2021-02-17 16:11:33,569 - stepDefinitions.CampaignStepDefinitions -INFO - User is on Campaigns Page
+2021-02-17 16:11:36,423 - stepDefinitions.CampaignStepDefinitions -INFO - Add New button clicked
+2021-02-17 16:11:39,004 - stepDefinitions.CampaignStepDefinitions -INFO - Gift Card details entered
+2021-02-17 16:11:41,024 - stepDefinitions.CampaignStepDefinitions -INFO - Save button clicked
+2021-02-17 16:11:44,523 - stepDefinitions.CampaignStepDefinitions -INFO - Add New button clicked
+2021-02-17 16:11:45,144 - stepDefinitions.GiftcardStepDefinition -INFO - User logged in
+2021-02-17 16:11:47,183 - stepDefinitions.CampaignStepDefinitions -INFO - Gift Card details entered
+2021-02-17 16:11:48,819 - stepDefinitions.GiftcardStepDefinition -INFO - User is on Gift Card Page
+2021-02-17 16:11:49,073 - stepDefinitions.CampaignStepDefinitions -INFO - Save button clicked
+2021-02-17 16:11:51,022 - stepDefinitions.GiftcardStepDefinition -INFO - Recipient Name: Brenda Lindgren is not present in data grid
+2021-02-17 16:11:52,705 - stepDefinitions.CampaignStepDefinitions -INFO - Add New button clicked
+2021-02-17 16:11:55,054 - stepDefinitions.CampaignStepDefinitions -INFO - Gift Card details entered
+2021-02-17 16:11:57,123 - stepDefinitions.CampaignStepDefinitions -INFO - Save button clicked
+2021-02-17 16:11:59,170 - stepDefinitions.CampaignStepDefinitions -INFO - Passed: All mentioned campaigns are added successfully
+2021-02-17 16:18:39,770 - stepDefinitions.CampaignStepDefinitions -INFO - User logged in
+2021-02-17 16:18:41,038 - stepDefinitions.GiftcardStepDefinition -INFO - User logged in
+2021-02-17 16:18:44,792 - stepDefinitions.GiftcardStepDefinition -INFO - User is on Gift Card Page
+2021-02-17 16:18:47,524 - stepDefinitions.GiftcardStepDefinition -INFO - Add New button clicked
+2021-02-17 16:18:48,214 - stepDefinitions.GiftcardStepDefinition -INFO - Gift Card details entered
+2021-02-17 16:18:48,468 - stepDefinitions.CampaignStepDefinitions -INFO - User is on Campaigns Page
+2021-02-17 16:18:50,479 - stepDefinitions.GiftcardStepDefinition -INFO - Save button clicked
+2021-02-17 16:18:50,581 - stepDefinitions.GiftcardStepDefinition -INFO - Passed: Gift card added successfully
+2021-02-17 16:18:51,514 - stepDefinitions.CampaignStepDefinitions -INFO - Add New button clicked
+2021-02-17 16:18:55,502 - stepDefinitions.CampaignStepDefinitions -INFO - Gift Card details entered
+2021-02-17 16:18:58,788 - stepDefinitions.CampaignStepDefinitions -INFO - Save button clicked
+2021-02-17 16:19:02,388 - stepDefinitions.CampaignStepDefinitions -INFO - Add New button clicked
+2021-02-17 16:19:04,851 - stepDefinitions.CampaignStepDefinitions -INFO - Gift Card details entered
+2021-02-17 16:19:05,443 - stepDefinitions.GiftcardStepDefinition -INFO - User logged in
+2021-02-17 16:19:06,911 - stepDefinitions.CampaignStepDefinitions -INFO - Save button clicked
+2021-02-17 16:19:10,685 - stepDefinitions.GiftcardStepDefinition -INFO - User is on Gift Card Page
+2021-02-17 16:19:11,656 - stepDefinitions.CampaignStepDefinitions -INFO - Add New button clicked
+2021-02-17 16:19:14,219 - stepDefinitions.CampaignStepDefinitions -INFO - Gift Card details entered
+2021-02-17 16:19:16,135 - stepDefinitions.CampaignStepDefinitions -INFO - Save button clicked
+2021-02-17 16:19:18,203 - stepDefinitions.CampaignStepDefinitions -INFO - Passed: All mentioned campaigns are added successfully
+2021-02-17 16:19:24,794 - stepDefinitions.GiftcardStepDefinition -INFO - Provided updated Giftcard details
+2021-02-17 16:19:27,969 - stepDefinitions.GiftcardStepDefinition -INFO - Save button clicked
+2021-02-17 16:19:29,020 - stepDefinitions.GiftcardStepDefinition -INFO - Passed: Gift card updated successfully
+2021-02-17 16:22:52,284 - stepDefinitions.CampaignStepDefinitions -INFO - User logged in
+2021-02-17 16:22:53,251 - stepDefinitions.GiftcardStepDefinition -INFO - User logged in
+2021-02-17 16:22:57,964 - stepDefinitions.GiftcardStepDefinition -INFO - User is on Gift Card Page
+2021-02-17 16:22:59,573 - stepDefinitions.GiftcardStepDefinition -INFO - Add New button clicked
+2021-02-17 16:23:00,133 - stepDefinitions.GiftcardStepDefinition -INFO - Gift Card details entered
+2021-02-17 16:23:00,696 - stepDefinitions.CampaignStepDefinitions -INFO - User is on Campaigns Page
+2021-02-17 16:23:01,931 - stepDefinitions.GiftcardStepDefinition -INFO - Save button clicked
+2021-02-17 16:23:01,974 - stepDefinitions.GiftcardStepDefinition -INFO - Passed: Gift card added successfully
+2021-02-17 16:23:03,623 - stepDefinitions.CampaignStepDefinitions -INFO - Add New button clicked
+2021-02-17 16:23:06,392 - stepDefinitions.CampaignStepDefinitions -INFO - Gift Card details entered
+2021-02-17 16:23:09,235 - stepDefinitions.CampaignStepDefinitions -INFO - Save button clicked
+2021-02-17 16:23:12,797 - stepDefinitions.CampaignStepDefinitions -INFO - Add New button clicked
+2021-02-17 16:23:15,419 - stepDefinitions.CampaignStepDefinitions -INFO - Gift Card details entered
+2021-02-17 16:23:15,520 - stepDefinitions.GiftcardStepDefinition -INFO - User logged in
+2021-02-17 16:23:17,535 - stepDefinitions.CampaignStepDefinitions -INFO - Save button clicked
+2021-02-17 16:23:19,188 - stepDefinitions.GiftcardStepDefinition -INFO - User is on Gift Card Page
+2021-02-17 16:23:21,134 - stepDefinitions.CampaignStepDefinitions -INFO - Add New button clicked
+2021-02-17 16:23:21,435 - stepDefinitions.GiftcardStepDefinition -INFO - Recipient Name: Brenda Lindgren is not present in data grid
+2021-02-17 16:23:23,758 - stepDefinitions.CampaignStepDefinitions -INFO - Gift Card details entered
+2021-02-17 16:23:25,732 - stepDefinitions.CampaignStepDefinitions -INFO - Save button clicked
+2021-02-17 16:23:27,776 - stepDefinitions.CampaignStepDefinitions -INFO - Passed: All mentioned campaigns are added successfully
+2021-02-17 16:54:54,658 - stepDefinitions.GiftcardStepDefinition -INFO - User logged in
+2021-02-17 16:54:54,923 - stepDefinitions.CampaignStepDefinitions -INFO - User logged in
+2021-02-17 16:54:59,424 - stepDefinitions.GiftcardStepDefinition -INFO - User is on Gift Card Page
+2021-02-17 16:55:01,379 - stepDefinitions.GiftcardStepDefinition -INFO - Add New button clicked
+2021-02-17 16:55:01,950 - stepDefinitions.GiftcardStepDefinition -INFO - Gift Card details entered
+2021-02-17 16:55:04,158 - stepDefinitions.GiftcardStepDefinition -INFO - Save button clicked
+2021-02-17 16:55:04,242 - stepDefinitions.GiftcardStepDefinition -INFO - Passed: Gift card added successfully
+2021-02-17 16:55:04,581 - stepDefinitions.CampaignStepDefinitions -INFO - User is on Campaigns Page
+2021-02-17 16:55:08,482 - stepDefinitions.CampaignStepDefinitions -INFO - Add New button clicked
+2021-02-17 16:55:11,172 - stepDefinitions.CampaignStepDefinitions -INFO - Gift Card details entered
+2021-02-17 16:55:14,137 - stepDefinitions.CampaignStepDefinitions -INFO - Save button clicked
+2021-02-17 16:55:17,517 - stepDefinitions.GiftcardStepDefinition -INFO - User logged in
+2021-02-17 16:55:18,848 - stepDefinitions.CampaignStepDefinitions -INFO - Add New button clicked
+2021-02-17 16:55:21,599 - stepDefinitions.CampaignStepDefinitions -INFO - Gift Card details entered
+2021-02-17 16:55:22,887 - stepDefinitions.GiftcardStepDefinition -INFO - User is on Gift Card Page
+2021-02-17 16:55:25,197 - stepDefinitions.GiftcardStepDefinition -INFO - Recipient Name: Brenda Lindgren is not present in data grid
+2021-02-17 16:55:25,644 - stepDefinitions.CampaignStepDefinitions -INFO - Save button clicked
+2021-02-17 16:55:30,828 - stepDefinitions.CampaignStepDefinitions -INFO - Add New button clicked
+2021-02-17 16:55:33,432 - stepDefinitions.CampaignStepDefinitions -INFO - Gift Card details entered
+2021-02-17 16:55:36,758 - stepDefinitions.CampaignStepDefinitions -INFO - Save button clicked
+2021-02-17 16:55:38,808 - stepDefinitions.CampaignStepDefinitions -INFO - Passed: All mentioned campaigns are added successfully
+2021-02-17 17:02:28,481 - stepDefinitions.GiftcardStepDefinition -INFO - User logged in
+2021-02-17 17:02:29,105 - stepDefinitions.CampaignStepDefinitions -INFO - User logged in
+2021-02-17 17:02:55,665 - stepDefinitions.GiftcardStepDefinition -INFO - User logged in
+2021-02-17 17:02:58,787 - stepDefinitions.GiftcardStepDefinition -INFO - User is on Gift Card Page
+2021-02-17 17:03:01,378 - stepDefinitions.GiftcardStepDefinition -INFO - Recipient Name: Brenda Lindgren is not present in data grid
+2021-02-17 17:06:19,795 - stepDefinitions.GiftcardStepDefinition -INFO - User logged in
+2021-02-17 17:06:21,367 - stepDefinitions.CampaignStepDefinitions -INFO - User logged in
+2021-02-17 17:06:24,311 - stepDefinitions.GiftcardStepDefinition -INFO - User is on Gift Card Page
+2021-02-17 17:06:25,857 - stepDefinitions.GiftcardStepDefinition -INFO - Add New button clicked
+2021-02-17 17:06:26,475 - stepDefinitions.GiftcardStepDefinition -INFO - Gift Card details entered
+2021-02-17 17:06:29,589 - stepDefinitions.GiftcardStepDefinition -INFO - Save button clicked
+2021-02-17 17:06:29,644 - stepDefinitions.GiftcardStepDefinition -INFO - Passed: Gift card added successfully
+2021-02-17 17:06:29,899 - stepDefinitions.CampaignStepDefinitions -INFO - User is on Campaigns Page
+2021-02-17 17:06:31,600 - stepDefinitions.CampaignStepDefinitions -INFO - Add New button clicked
+2021-02-17 17:06:34,136 - stepDefinitions.CampaignStepDefinitions -INFO - Gift Card details entered
+2021-02-17 17:06:37,281 - stepDefinitions.CampaignStepDefinitions -INFO - Save button clicked
+2021-02-17 17:06:40,684 - stepDefinitions.CampaignStepDefinitions -INFO - Add New button clicked
+2021-02-17 17:06:42,619 - stepDefinitions.GiftcardStepDefinition -INFO - User logged in
+2021-02-17 17:06:43,217 - stepDefinitions.CampaignStepDefinitions -INFO - Gift Card details entered
+2021-02-17 17:06:45,070 - stepDefinitions.CampaignStepDefinitions -INFO - Save button clicked
+2021-02-17 17:06:45,774 - stepDefinitions.GiftcardStepDefinition -INFO - User is on Gift Card Page
+2021-02-17 17:06:48,140 - stepDefinitions.GiftcardStepDefinition -INFO - Recipient Name: Brenda Lindgren is not present in data grid
+2021-02-17 17:06:48,472 - stepDefinitions.CampaignStepDefinitions -INFO - Add New button clicked
+2021-02-17 17:06:50,929 - stepDefinitions.CampaignStepDefinitions -INFO - Gift Card details entered
+2021-02-17 17:06:54,254 - stepDefinitions.CampaignStepDefinitions -INFO - Save button clicked
+2021-02-17 17:06:56,309 - stepDefinitions.CampaignStepDefinitions -INFO - Passed: All mentioned campaigns are added successfully
+2021-02-17 17:26:39,355 - stepDefinitions.GiftcardStepDefinition -INFO - User logged in
+2021-02-17 17:26:39,659 - stepDefinitions.CampaignStepDefinitions -INFO - User logged in
+2021-02-17 17:26:43,090 - stepDefinitions.GiftcardStepDefinition -INFO - User is on Gift Card Page
+2021-02-17 17:26:46,652 - stepDefinitions.CampaignStepDefinitions -INFO - User is on Campaigns Page
+2021-02-17 17:26:46,741 - stepDefinitions.GiftcardStepDefinition -INFO - Add New button clicked
+2021-02-17 17:26:47,391 - stepDefinitions.GiftcardStepDefinition -INFO - Gift Card details entered
+2021-02-17 17:26:48,442 - stepDefinitions.CampaignStepDefinitions -INFO - Add New button clicked
+2021-02-17 17:26:50,453 - stepDefinitions.GiftcardStepDefinition -INFO - Save button clicked
+2021-02-17 17:26:50,498 - stepDefinitions.GiftcardStepDefinition -INFO - Passed: Gift card added successfully
+2021-02-17 17:26:50,959 - stepDefinitions.CampaignStepDefinitions -INFO - Gift Card details entered
+2021-02-17 17:26:53,803 - stepDefinitions.CampaignStepDefinitions -INFO - Save button clicked
+2021-02-17 17:26:58,546 - stepDefinitions.CampaignStepDefinitions -INFO - Add New button clicked
+2021-02-17 17:27:01,010 - stepDefinitions.CampaignStepDefinitions -INFO - Gift Card details entered
+2021-02-17 17:27:03,555 - stepDefinitions.GiftcardStepDefinition -INFO - User logged in
+2021-02-17 17:27:03,895 - stepDefinitions.CampaignStepDefinitions -INFO - Save button clicked
+2021-02-17 17:27:06,477 - stepDefinitions.GiftcardStepDefinition -INFO - User is on Gift Card Page
+2021-02-17 17:27:07,564 - stepDefinitions.CampaignStepDefinitions -INFO - Add New button clicked
+2021-02-17 17:27:10,093 - stepDefinitions.CampaignStepDefinitions -INFO - Gift Card details entered
+2021-02-17 17:27:12,346 - stepDefinitions.CampaignStepDefinitions -INFO - Save button clicked
+2021-02-17 17:27:14,397 - stepDefinitions.CampaignStepDefinitions -INFO - Passed: All mentioned campaigns are added successfully
+2021-02-17 17:27:21,823 - stepDefinitions.GiftcardStepDefinition -INFO - Provided updated Giftcard details
+2021-02-17 17:27:24,967 - stepDefinitions.GiftcardStepDefinition -INFO - Save button clicked
+2021-02-17 17:27:26,022 - stepDefinitions.GiftcardStepDefinition -INFO - Passed: Gift card updated successfully

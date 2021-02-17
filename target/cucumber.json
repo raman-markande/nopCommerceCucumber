@@ -3,15 +3,15 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-10-23T10:48:48.899Z",
+        "start_timestamp": "2021-02-17T11:56:21.270Z",
         "before": [
           {
             "result": {
-              "duration": 10818760800,
+              "duration": 6791566200,
               "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.CampaignStepDefinitions.setup(io.cucumber.java.Scenario)"
+              "location": "appHooks.AppHooks.setup(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -22,11 +22,20 @@
         "after": [
           {
             "result": {
-              "duration": 969831500,
+              "duration": 2221100,
               "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.CampaignStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+              "location": "appHooks.AppHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 862241900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "appHooks.AppHooks.quiteDriver()"
             }
           }
         ],
@@ -35,7 +44,7 @@
         "steps": [
           {
             "result": {
-              "duration": 15017205400,
+              "duration": 18400107600,
               "status": "passed"
             },
             "line": 5,
@@ -47,7 +56,7 @@
           },
           {
             "result": {
-              "duration": 25950634900,
+              "duration": 27737071600,
               "status": "passed"
             },
             "line": 6,
@@ -89,7 +98,7 @@
           },
           {
             "result": {
-              "duration": 2017200,
+              "duration": 2999700,
               "status": "passed"
             },
             "line": 11,
@@ -118,15 +127,15 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-10-23T10:48:48.994Z",
+        "start_timestamp": "2021-02-17T11:56:21.447Z",
         "before": [
           {
             "result": {
-              "duration": 10823703400,
+              "duration": 7119328600,
               "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.CategoryStepDefinition.setup()"
+              "location": "appHooks.AppHooks.setup(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -137,11 +146,20 @@
         "after": [
           {
             "result": {
-              "duration": 2501125600,
+              "duration": 7002100,
               "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.CategoryStepDefinition.tearDown(io.cucumber.java.Scenario)"
+              "location": "appHooks.AppHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 931976400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "appHooks.AppHooks.quiteDriver()"
             }
           }
         ],
@@ -150,7 +168,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11198066600,
+              "duration": 14860740800,
               "status": "passed"
             },
             "line": 5,
@@ -162,7 +180,7 @@
           },
           {
             "result": {
-              "duration": 6959983600,
+              "duration": 6638705700,
               "status": "passed"
             },
             "line": 6,
@@ -184,7 +202,7 @@
           },
           {
             "result": {
-              "duration": 38083700,
+              "duration": 84558000,
               "status": "passed"
             },
             "line": 7,
@@ -202,15 +220,15 @@
         ]
       },
       {
-        "start_timestamp": "2020-10-23T10:49:20.571Z",
+        "start_timestamp": "2021-02-17T11:56:51.171Z",
         "before": [
           {
             "result": {
-              "duration": 7982195700,
+              "duration": 4796850900,
               "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.CategoryStepDefinition.setup()"
+              "location": "appHooks.AppHooks.setup(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -221,11 +239,20 @@
         "after": [
           {
             "result": {
-              "duration": 1705084800,
+              "duration": 1001700,
               "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.CategoryStepDefinition.tearDown(io.cucumber.java.Scenario)"
+              "location": "appHooks.AppHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 876245400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "appHooks.AppHooks.quiteDriver()"
             }
           }
         ],
@@ -234,7 +261,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10095026800,
+              "duration": 16390210500,
               "status": "passed"
             },
             "line": 5,
@@ -246,7 +273,7 @@
           },
           {
             "result": {
-              "duration": 5877151400,
+              "duration": 7426787800,
               "status": "passed"
             },
             "line": 6,
@@ -268,7 +295,7 @@
           },
           {
             "result": {
-              "duration": 46568100,
+              "duration": 75286800,
               "status": "passed"
             },
             "line": 7,
@@ -286,15 +313,15 @@
         ]
       },
       {
-        "start_timestamp": "2020-10-23T10:49:46.284Z",
+        "start_timestamp": "2021-02-17T11:57:20.774Z",
         "before": [
           {
             "result": {
-              "duration": 7807879400,
+              "duration": 3547170600,
               "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.CategoryStepDefinition.setup()"
+              "location": "appHooks.AppHooks.setup(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -305,11 +332,20 @@
         "after": [
           {
             "result": {
-              "duration": 964105300,
+              "duration": 1036700,
               "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.CategoryStepDefinition.tearDown(io.cucumber.java.Scenario)"
+              "location": "appHooks.AppHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 839130300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "appHooks.AppHooks.quiteDriver()"
             }
           }
         ],
@@ -318,7 +354,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10082022600,
+              "duration": 11068711700,
               "status": "passed"
             },
             "line": 5,
@@ -330,7 +366,7 @@
           },
           {
             "result": {
-              "duration": 5369387500,
+              "duration": 5387912200,
               "status": "passed"
             },
             "line": 6,
@@ -352,7 +388,7 @@
           },
           {
             "result": {
-              "duration": 31016400,
+              "duration": 35199100,
               "status": "passed"
             },
             "line": 7,
@@ -370,15 +406,15 @@
         ]
       },
       {
-        "start_timestamp": "2020-10-23T10:50:10.551Z",
+        "start_timestamp": "2021-02-17T11:57:41.678Z",
         "before": [
           {
             "result": {
-              "duration": 7706622900,
+              "duration": 3521998200,
               "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.CategoryStepDefinition.setup()"
+              "location": "appHooks.AppHooks.setup(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -389,11 +425,19 @@
         "after": [
           {
             "result": {
-              "duration": 871103400,
               "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.CategoryStepDefinition.tearDown(io.cucumber.java.Scenario)"
+              "location": "appHooks.AppHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 835721200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "appHooks.AppHooks.quiteDriver()"
             }
           }
         ],
@@ -402,7 +446,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11345372500,
+              "duration": 8858040300,
               "status": "passed"
             },
             "line": 5,
@@ -414,7 +458,7 @@
           },
           {
             "result": {
-              "duration": 5609157700,
+              "duration": 5171206900,
               "status": "passed"
             },
             "line": 6,
@@ -436,7 +480,7 @@
           },
           {
             "result": {
-              "duration": 38998600,
+              "duration": 31987900,
               "status": "passed"
             },
             "line": 7,
@@ -473,7 +517,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11263252100,
+              "duration": 15388975200,
               "status": "passed"
             },
             "line": 4,
@@ -486,15 +530,15 @@
         ]
       },
       {
-        "start_timestamp": "2020-10-23T10:48:48.899Z",
+        "start_timestamp": "2021-02-17T11:56:21.266Z",
         "before": [
           {
             "result": {
-              "duration": 10827506200,
+              "duration": 6198795700,
               "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.GiftcardStepDefinition.setup(io.cucumber.java.Scenario)"
+              "location": "appHooks.AppHooks.setup(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -505,11 +549,20 @@
         "after": [
           {
             "result": {
-              "duration": 828009100,
+              "duration": 1016600,
               "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.GiftcardStepDefinition.tearDown(io.cucumber.java.Scenario)"
+              "location": "appHooks.AppHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 860000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "appHooks.AppHooks.quiteDriver()"
             }
           }
         ],
@@ -518,7 +571,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5316338100,
+              "duration": 7361520700,
               "status": "passed"
             },
             "line": 9,
@@ -546,7 +599,7 @@
           },
           {
             "result": {
-              "duration": 71239300,
+              "duration": 43852600,
               "status": "passed"
             },
             "line": 12,
@@ -559,7 +612,7 @@
         ],
         "tags": [
           {
-            "name": "@GiftCard"
+            "name": "@Giftcard"
           }
         ]
       },
@@ -572,7 +625,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9036272900,
+              "duration": 10480769400,
               "status": "passed"
             },
             "line": 4,
@@ -585,15 +638,15 @@
         ]
       },
       {
-        "start_timestamp": "2020-10-23T10:49:17.333Z",
+        "start_timestamp": "2021-02-17T11:56:51.387Z",
         "before": [
           {
             "result": {
-              "duration": 8072403200,
+              "duration": 4603406900,
               "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.GiftcardStepDefinition.setup(io.cucumber.java.Scenario)"
+              "location": "appHooks.AppHooks.setup(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -604,11 +657,19 @@
         "after": [
           {
             "result": {
-              "duration": 1042857300,
               "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.GiftcardStepDefinition.tearDown(io.cucumber.java.Scenario)"
+              "location": "appHooks.AppHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 898860500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "appHooks.AppHooks.quiteDriver()"
             }
           }
         ],
@@ -617,7 +678,7 @@
         "steps": [
           {
             "result": {
-              "duration": 14012057500,
+              "duration": 14914599300,
               "status": "passed"
             },
             "line": 17,
@@ -635,7 +696,7 @@
           },
           {
             "result": {
-              "duration": 3577128900,
+              "duration": 4571748100,
               "status": "passed"
             },
             "line": 18,
@@ -661,7 +722,7 @@
           },
           {
             "result": {
-              "duration": 35061500,
+              "duration": 52511800,
               "status": "passed"
             },
             "line": 21,
@@ -674,7 +735,7 @@
         ],
         "tags": [
           {
-            "name": "@GiftCard"
+            "name": "@Giftcard"
           }
         ]
       }
@@ -684,68 +745,6 @@
     "id": "giftcard",
     "keyword": "Feature",
     "uri": "file:src/test/java/Features/GiftCard.feature",
-    "tags": []
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "start_timestamp": "2020-10-23T10:48:48.898Z",
-        "before": [
-          {
-            "result": {
-              "duration": 19970100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.testOnly.setup(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 4,
-        "name": "testing name of scenario",
-        "description": "",
-        "id": "test-only;testing-name-of-scenario",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 127990600,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "scenario name",
-            "match": {
-              "location": "stepDefinitions.testOnly.scenario_name()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 4054900,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "print scenario name",
-            "match": {
-              "location": "stepDefinitions.testOnly.print_scenario_name()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Testonly"
-          }
-        ]
-      }
-    ],
-    "name": "Test only",
-    "description": "",
-    "id": "test-only",
-    "keyword": "Feature",
-    "uri": "file:src/test/java/Features/test.feature",
     "tags": []
   }
 ]

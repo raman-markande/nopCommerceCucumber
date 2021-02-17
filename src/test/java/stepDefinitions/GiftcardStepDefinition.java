@@ -2,33 +2,29 @@ package stepDefinitions;
 
 import java.io.IOException;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
-
-import com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter;
 
 import PageObjects.AddGiftCardPage;
 import PageObjects.EditGiftCardPage;
 import PageObjects.LoginPage;
 import io.cucumber.datatable.DataTable;
-import io.cucumber.java.After;
-import io.cucumber.java.Before;
-import io.cucumber.java.Scenario;
+
 import io.cucumber.java.en.*;
 
-public class GiftcardStepDefinition extends FunctionLibrary {
-	public WebDriver driver;	
+import utilities.CommonFunctions;
+import utilities.DriverInit;
+
+public class GiftcardStepDefinition extends CommonFunctions {
+	private WebDriver driver = DriverInit.getDriver();
 	public LoginPage lp;
 	public AddGiftCardPage agcp;
 	public EditGiftCardPage egcp;
-	
+	Logger logger = Logger.getLogger(getClass().getName());
 
+	/*
 	@Before("@GiftCard")
 	public void setup(Scenario scenario) {
 		if(System.getProperty("browserName").equals("chrome")) {
@@ -65,6 +61,7 @@ public class GiftcardStepDefinition extends FunctionLibrary {
 
 		driver.quit();
 	}
+	*/
 	
 	//Add Giftcard Step Definition
 

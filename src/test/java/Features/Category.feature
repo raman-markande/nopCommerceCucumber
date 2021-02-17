@@ -1,6 +1,6 @@
 Feature: Category 
 
-@Category 
+@Category
 Scenario Outline: Add New Category 
 	Given User is on Category page 
 	When User provide below list of "<CategoryName>" , "<ParentCategory>" as input data 
